@@ -1,0 +1,77 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+}
+.timer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(28, 82, 48);
+  font-family: times;
+  text-decoration: wavy;
+  font-size: 3rem;
+}
+input {
+  width: 20%;
+  border: none;
+  cursor: pointer;
+  background-color: lightgray;
+  border-radius: 30px;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 60px;
+  color: red;
+}
+.input {
+  display: flex;
+  justify-content: space-around;
+}
+.button_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  color: rgb(158, 56, 56);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5rem;
+  border-radius: 999px;
+  padding: 20px 100px;
+  font: normal 700 24px/1 "Open Sans", sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+  margin-left: 80px;
+  cursor: pointer;
+}
+input[type="number" i] {
+  padding: 3rem 3rem;
+}
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#count {
+  border: none;
+  color: rgb(158, 56, 56);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5rem;
+  border-radius: 999px;
+  padding: 20px 100px;
+  font: normal 700 24px/1 "Open Sans", sans-serif;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(158, 32, 32, 0.815);
+  font-size: 6rem;
+}
